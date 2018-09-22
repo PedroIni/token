@@ -179,7 +179,7 @@
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity ^0.4.23;\n/**\n * @title ERC20 interface\n * @dev see https://github.com/ethereum/EIPs/issues/20\n */\ncontract ERC20 {\n  function totalSupply() public view returns (uint256);\n\n  function balanceOf(address _who) public view returns (uint256);\n\n  function allowance(address _owner, address _spender)\n    public view returns (uint256);\n\n  function transfer(address _to, uint256 _value) public returns (bool);\n\n  function approve(address _spender, uint256 _value)\n    public returns (bool);\n\n  function transferFrom(address _from, address _to, uint256 _value)\n    public returns (bool);\n\n  event Transfer(address indexed from, address indexed to, uint256 value);\n\n  event Approval(address indexed owner, address indexed spender, uint256 value);\n}\n\n",
+  "source": "pragma solidity ^0.4.24;\n/**\n * @title ERC20 interface\n * @dev see https://github.com/ethereum/EIPs/issues/20\n */\ncontract ERC20 {\n  function totalSupply() public view returns (uint256);\n\n  function balanceOf(address _who) public view returns (uint256);\n\n  function allowance(address _owner, address _spender)\n    public view returns (uint256);\n\n  function transfer(address _to, uint256 _value) public returns (bool);\n\n  function approve(address _spender, uint256 _value)\n    public returns (bool);\n\n  function transferFrom(address _from, address _to, uint256 _value)\n    public returns (bool);\n\n  event Transfer(address indexed from, address indexed to, uint256 value);\n\n  event Approval(address indexed owner, address indexed spender, uint256 value);\n}\n\n",
   "sourcePath": "/home/jacg/Github-tanogedler/InmobiliariaEspaña/token/Token-ERC20/contracts/ERC20.sol",
   "ast": {
     "absolutePath": "/home/jacg/Github-tanogedler/InmobiliariaEspaña/token/Token-ERC20/contracts/ERC20.sol",
@@ -197,7 +197,7 @@
           "solidity",
           "^",
           "0.4",
-          ".23"
+          ".24"
         ],
         "nodeType": "PragmaDirective",
         "src": "0:24:1"
@@ -1031,7 +1031,7 @@
           "solidity",
           "^",
           "0.4",
-          ".23"
+          ".24"
         ],
         "nodeType": "PragmaDirective",
         "src": "0:24:1"
@@ -1855,5 +1855,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-09-19T18:54:39.457Z"
+  "updatedAt": "2018-09-19T19:48:04.748Z"
 }
